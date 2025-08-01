@@ -1,0 +1,28 @@
+{
+  "name": "AlphIQ - Unified Alephium Analytics Platform",
+  "short_name": "AlphIQ",
+  "description": "Unified platform for blockchain analytics, quests, and learning—empowering users to explore, engage, and educate through real-time insights and gamified onchain experiences.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1B1B1F",
+  "theme_color": "#1B1B1F",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "32x32",
+      "type": "image/x-icon"
+    }
+  ],
+  "categories": ["finance", "productivity", "utilities"],
+  "lang": "en",
+  "dir": "ltr",
+  "scope": "/",
+  "prefer_related_applications": false
+} 

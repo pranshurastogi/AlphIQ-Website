@@ -119,7 +119,7 @@ export default function AlphIQLanding() {
       <nav className="relative z-50 flex items-center justify-between p-6 border-b border-[#7A7A7A]/20">
         <div className="flex items-center space-x-2">
           <img
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/alphiq-7VtGal4GFDlniP0JdA3DVumrG78D8h.png"
+            src="/images/alphiq-logo.png"
             alt="AlphIQ Logo"
             className="w-8 h-8"
           />
@@ -191,12 +191,12 @@ export default function AlphIQLanding() {
             <div className="absolute inset-0 bg-gradient-to-r from-[#FF8A65] to-[#00E6B0] rounded-2xl blur-2xl opacity-20"></div>
             <div className="grid md:grid-cols-2 gap-4">
               <img
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-08-02%20at%2012.04.31%E2%80%AFAM-V4lVOrNolDHX9FiWYTQ4HK3ITYUkbV.png"
+                src="/images/dashboard-analytics.png"
                 alt="AlphIQ Analytics Dashboard"
                 className="relative z-10 w-full rounded-xl border border-[#7A7A7A]/30 shadow-2xl"
               />
               <img
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-08-02%20at%2012.04.49%E2%80%AFAM-3svDT63c6mz4lUfWrPOdzwL85N54eb.png"
+                src="/images/dashboard-gamification.png"
                 alt="AlphIQ Gamification Dashboard"
                 className="relative z-10 w-full rounded-xl border border-[#7A7A7A]/30 shadow-2xl"
               />
@@ -312,7 +312,7 @@ export default function AlphIQLanding() {
           <div className="flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0">
             <div className="flex items-center space-x-2">
               <img
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/alphiq-7VtGal4GFDlniP0JdA3DVumrG78D8h.png"
+                src="/images/alphiq-logo.png"
                 alt="AlphIQ Logo"
                 className="w-8 h-8"
               />
