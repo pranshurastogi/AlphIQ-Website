@@ -22,6 +22,8 @@ import {
   Gamepad2,
   Brain,
   ChevronRight,
+  Star,
+  Heart,
 } from "lucide-react"
 
 export default function AlphIQLanding() {
@@ -138,7 +140,7 @@ export default function AlphIQLanding() {
             </a>
           </Button>
           <Button className="bg-gradient-to-r from-[#FF8A65] to-[#00E6B0] text-[#1B1B1F] hover:opacity-90" asChild>
-            <a href="https://alph-iq.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <a href="https://app.alphiq.xyz/" target="_blank" rel="noopener noreferrer">
               Launch App
               <ExternalLink className="w-4 h-4 ml-2" />
             </a>
@@ -171,7 +173,7 @@ export default function AlphIQLanding() {
               className="bg-gradient-to-r from-[#FF8A65] to-[#00E6B0] text-[#1B1B1F] hover:opacity-90 px-8 py-3 text-lg"
               asChild
             >
-              <a href="https://alph-iq.vercel.app/" target="_blank" rel="noopener noreferrer">
+              <a href="https://app.alphiq.xyz/" target="_blank" rel="noopener noreferrer">
                 Launch App
                 <ArrowRight className="w-5 h-5 ml-2" />
               </a>
@@ -200,6 +202,67 @@ export default function AlphIQLanding() {
                 alt="AlphIQ Gamification Dashboard"
                 className="relative z-10 w-full rounded-xl border border-[#7A7A7A]/30 shadow-2xl"
               />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ALPH LAND Section */}
+      <section className="relative z-10 px-6 py-16">
+        <div className="max-w-4xl mx-auto">
+          <div className="bg-gradient-to-r from-[#A285FF]/10 to-[#FF8A65]/10 rounded-3xl p-8 border border-[#A285FF]/30 relative overflow-hidden">
+            {/* Animated background elements */}
+            <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-[#A285FF]/20 to-transparent rounded-full blur-2xl"></div>
+            <div className="absolute bottom-0 left-0 w-24 h-24 bg-gradient-to-tr from-[#FF8A65]/20 to-transparent rounded-full blur-xl"></div>
+            
+            <div className="relative z-10 text-center">
+              <div className="flex items-center justify-center mb-4">
+                <Star className="w-6 h-6 text-[#FFD700] mr-2" />
+                <span className="text-lg font-semibold text-[#E0E0E0]">We are LIVE on ALPH LAND!</span>
+                <Star className="w-6 h-6 text-[#FFD700] ml-2" />
+              </div>
+              
+              <h2 className="text-2xl md:text-3xl font-bold mb-4 bg-gradient-to-r from-[#A285FF] to-[#FF8A65] bg-clip-text text-transparent">
+                Show Your Love & Support
+              </h2>
+              
+              <p className="text-[#7A7A7A] mb-6 max-w-2xl mx-auto leading-relaxed">
+                AlphIQ is now featured on ALPH LAND - the premier directory for Alephium projects. 
+                Your 5-star rating helps us grow and reach more users in the ecosystem!
+              </p>
+              
+              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <Button
+                  size="lg"
+                  className="bg-gradient-to-r from-[#A285FF] to-[#8B5FE6] text-white hover:opacity-90 px-6 py-3"
+                  asChild
+                >
+                  <a href="https://www.alph.land/alphiq" target="_blank" rel="noopener noreferrer">
+                    <Heart className="w-5 h-5 mr-2" />
+                    Rate 5 Stars
+                    <ExternalLink className="w-4 h-4 ml-2" />
+                  </a>
+                </Button>
+                
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="border-[#7A7A7A] text-[#E0E0E0] hover:bg-[#7A7A7A]/10 bg-transparent"
+                  asChild
+                >
+                  <a href="https://www.alph.land/alphiq" target="_blank" rel="noopener noreferrer">
+                    View on ALPH LAND
+                    <ExternalLink className="w-4 h-4 ml-2" />
+                  </a>
+                </Button>
+              </div>
+              
+              <div className="mt-6 flex justify-center items-center space-x-1">
+                {[...Array(5)].map((_, i) => (
+                  <Star key={i} className="w-5 h-5 text-[#FFD700] fill-current" />
+                ))}
+                <span className="ml-2 text-sm text-[#7A7A7A]">Your rating matters!</span>
+              </div>
             </div>
           </div>
         </div>
